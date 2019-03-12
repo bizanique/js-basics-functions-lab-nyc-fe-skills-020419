@@ -10,5 +10,9 @@ function distanceFromHqInFeet(block) { return distanceFromHqInBlocks(block) * fe
 
 function distanceTravelledInFeet(block1, block2) {
   return Math.abs((block1 * feetPerBlock) - (blocks2 * feetPerBlock))
-  
+}
+
+function calculatesFarePrice(start, destination) {
+  if (distanceTravelledInFeet(start, destination) < 400) { return 
+  } else if (distanceTravelledInFeet(start, destination) >= 400 && distanceTravelledInFeet(start, desitnation) < 200)
 }
