@@ -10,3 +10,5 @@ function distanceFromHqInFeet(block) { return distanceFromHqInBlocks(block) * fe
 
 function distanceTravelledInFeet(block1, block2) {
   return Math.abs((block1 * feetPerBlock) - (blocks2 * feetPerBlock))
+  
+}
