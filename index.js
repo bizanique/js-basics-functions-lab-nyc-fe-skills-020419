@@ -1,5 +1,6 @@
 // Code your solution in this file!
 const headquatersBlock = 42
+const feetPerBlock = 264
 
 function distanceFromHqInBlocks(block) {
   return Math.abs(block - headquatersBlock)
